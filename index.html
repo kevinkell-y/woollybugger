@@ -1,45 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Woolly Bugger</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <main class="label">
-    <nav class="nav">
-      <a href="#home">Home</a>
-      <a href="#field-kits">Field Kits</a>
-      <a href="#field-guides">Field Guides</a>
-    </nav>
+---
+layout: default
+title: Home
+description: Natural history goods from Woolly Bugger.
+---
 
-    <section id="home" class="page active">
-      <p class="brand">Woolly Bugger's</p>
-      <h1>Field Bite Kit</h1>
-      <div class="bug">✦</div>
-      <p class="subhead">Insect Bites &amp; Stings</p>
-        <p class="small">Field-Tested in the Beartooths • Montana, USA</p>
-        </section>
+<main class="museum">
 
-    <section id="field-kits" class="page">
-      <p class="brand">Woolly Bugger's</p>
-      <h2>Field Kits</h2>
-      <p class="subhead">Small things worth carrying.</p>
-      <p class="bodycopy">The Bite Kit is coming first.</p>
-    </section>
+  {% include nav.html %}
 
-    <section id="field-guides" class="page">
-      <p class="brand">Woolly Bugger's</p>
-      <h2>Field Guides</h2>
-      <p class="subhead">Pocket references for real places.</p>
-      <p class="bodycopy">Trout, flowers, trails, rivers, maps, and small field knowledge.</p>
-    </section>
-  </main>
+  <header class="hero">
+    <p class="eyebrow">Woolly Bugger's</p>
+    <h1>Natural History Goods</h1>
+    <p class="tagline">
+      Field kits, printed guides, posters, postcards, and notes from the trail.
+    </p>
+    <p class="stamp">Field-Tested in the Beartooths • Montana, USA</p>
+  </header>
 
-  <script src="app.js"></script>
-</body>
-</html>
+  <section class="collection-grid">
+
+    <a class="collection-card feature" href="{{ '/field-kits/' | relative_url }}">
+      <p>Field Kits</p>
+      <h2>Useful things worth carrying.</h2>
+      <span>Shop Kits</span>
+    </a>
+
+    <a class="collection-card" href="{{ '/field-guides/' | relative_url }}">
+      <p>Field Guides</p>
+      <h2>Printed knowledge for wild places.</h2>
+      <span>Browse Guides</span>
+    </a>
+
+    <a class="collection-card" href="{{ '/posters/' | relative_url }}">
+      <p>Posters</p>
+      <h2>Natural history for the wall.</h2>
+      <span>View Prints</span>
+    </a>
+
+    <a class="collection-card" href="{{ '/postcards/' | relative_url }}">
+      <p>Postcards</p>
+      <h2>Small paper souvenirs from the field.</h2>
+      <span>Browse Cards</span>
+    </a>
+
+    <a class="collection-card" href="{{ '/field-notes/' | relative_url }}">
+      <p>Field Notes</p>
+      <h2>Short essays, guides, and useful answers.</h2>
+      <span>Read Notes</span>
+    </a>
+
+    <a class="collection-card" href="{{ '/about/' | relative_url }}">
+      <p>About</p>
+      <h2>American made. Field tested.</h2>
+      <span>Learn More</span>
+    </a>
+
+  </section>
+
+</main>

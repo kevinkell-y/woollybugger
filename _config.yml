@@ -1,0 +1,22 @@
+title: Woolly Bugger
+
+description: >
+  Field kits, field guides,
+  posters, postcards,
+  and field notes.
+
+url: "https://kevinkell-y.github.io"
+baseurl: "/woollybugger"
+
+markdown: kramdown
+
+collections:
+  products:
+    output: true
+    permalink: /products/:name/
+  field_guides:
+    output: true
+    permalink: /field-guides/:name/
+  field_notes:
+    output: true
+    permalink: /field-notes/:name/

@@ -1,0 +1,51 @@
+---
+layout: default
+title: Field Bite Kit
+description: A pocket field kit for insect bites and stings.
+price: "$18"
+stripe_link: "https://buy.stripe.com/YOUR_PAYMENT_LINK_HERE"
+---
+
+<main class="label product-ad">
+
+  {% include nav.html %}
+
+  <section class="product-ad-hero">
+    <p class="brand">Woolly Bugger's</p>
+    <h1>Field Bite Kit</h1>
+    <div class="bug">✦</div>
+    <p class="subhead">For Insect Bites &amp; Stings</p>
+  </section>
+
+  <section class="product-photo-center">
+    <img src="{{ '/assets/img/field-bite-kit.png' | relative_url }}" alt="Woolly Bugger Field Bite Kit">
+  </section>
+
+  <section class="buy-card">
+    <h2>A Complete Field Response System</h2>
+
+    <ul class="kit-list centered-list">
+      <li>Antihistamine</li>
+      <li>Sting Relief</li>
+      <li>Tweezers</li>
+      <li>Alcohol Wipes</li>
+      <li>After-Bite Treatment</li>
+      <li>Super Glue</li>
+      <li>Band-Aids</li>
+      <li>And More!</li>
+    </ul>
+
+    <p class="price">{{ page.price }}</p>
+
+    <a class="buy-button" href="{{ page.stripe_link }}">
+      Buy Now
+    </a>
+
+    <p class="secure-note">Secure checkout by Stripe.</p>
+  </section>
+
+  <p class="small bottom-stamp">
+    Field-Tested in the Beartooths • Montana, USA
+  </p>
+
+</main>
