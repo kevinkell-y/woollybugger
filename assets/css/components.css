@@ -1,0 +1,44 @@
+.button,
+.buy-button {
+  display: inline-block;
+  background: var(--ink);
+  color: var(--paper-light);
+  border: 2px solid var(--ink);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-weight: 600;
+}
+
+.button {
+  padding: 15px 22px;
+  font-size: 14px;
+}
+
+.buy-button {
+  display: block;
+  width: 100%;
+  max-width: 460px;
+  margin: 0 auto;
+  padding: 24px;
+  font-size: clamp(28px, 3vw, 42px);
+}
+
+.button:hover,
+.buy-button:hover {
+  background: transparent;
+  color: var(--ink);
+}
+
+.site-label {
+  display: inline-block;
+  margin-bottom: 18px;
+  padding: 16px 34px;
+  border: 3px double var(--ink);
+  outline: 1px solid var(--ink);
+  outline-offset: -8px;
+  text-transform: uppercase;
+  letter-spacing: .18em;
+  font-size: 13px;
+  font-weight: 600;
+}
