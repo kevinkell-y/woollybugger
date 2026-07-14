@@ -42,3 +42,259 @@
   font-size: 13px;
   font-weight: 600;
 }
+
+/* Beartooth gear checklist */
+
+.gear-checklist {
+  width: min(760px, calc(100% - 3rem));
+  margin: 4rem auto 0;
+}
+
+.gear-section {
+  margin: 0 0 4rem;
+}
+
+.gear-section h2 {
+  margin: 0 0 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid currentColor;
+  font-size: clamp(1.35rem, 2vw, 1.75rem);
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.gear-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gear-row {
+  display: grid;
+  grid-template-columns: 1.1rem minmax(0, 1fr) 5.5rem;
+  gap: 0.9rem;
+  align-items: start;
+  padding: 0.8rem 0;
+  border-bottom: 1px dotted rgba(22, 18, 12, 0.25);
+  font-size: 1.08rem;
+  line-height: 1.45;
+}
+
+.check-box {
+  display: block;
+  width: 0.9rem;
+  height: 0.9rem;
+  margin-top: 0.3rem;
+  border: 1px solid currentColor;
+}
+
+.gear-item-copy {
+  min-width: 0;
+}
+
+.gear-item-name {
+  color: inherit;
+  font-weight: 500;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+a.gear-item-name:hover,
+a.gear-item-name:focus-visible {
+  text-decoration-thickness: 2px;
+}
+
+.gear-item-note {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.87em;
+  font-style: italic;
+  opacity: 0.76;
+}
+
+.gear-item-weight {
+  min-height: 1em;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.print-button {
+  display: block;
+  margin: 1rem auto 4rem;
+  padding: 0.9rem 1.3rem;
+  border: 1px solid currentColor;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 0.85rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.print-button:hover,
+.print-button:focus-visible {
+  background: rgba(22, 18, 12, 0.08);
+}
+
+@media (min-width: 701px) {
+  .gear-checklist {
+    width: min(900px, calc(100% - 3rem));
+  }
+
+  .gear-section h2 {
+    font-size: clamp(1.6rem, 2.4vw, 2.1rem);
+  }
+
+  .gear-row {
+    grid-template-columns: 1.2rem minmax(0, 1fr) 6rem;
+    gap: 1rem;
+    padding: 0.95rem 0;
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+
+  .check-box {
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.35rem;
+  }
+
+  .gear-item-note {
+    font-size: 0.9em;
+  }
+
+  .print-button {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .gear-checklist {
+    width: calc(100% - 2rem);
+    margin-top: 3rem;
+  }
+
+  .gear-section {
+    margin-bottom: 3rem;
+  }
+
+  .gear-section h2 {
+    font-size: 1.2rem;
+  }
+
+  .gear-row {
+    grid-template-columns: 1rem minmax(0, 1fr);
+    gap: 0.75rem;
+    font-size: 1rem;
+  }
+
+  .gear-item-weight {
+    grid-column: 2;
+    text-align: left;
+    font-size: 0.85rem;
+    opacity: 0.75;
+  }
+}
+
+@media print {
+  @page {
+    size: letter;
+    margin: 0.5in;
+  }
+
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  .nav,
+  .collection-divider,
+  .complete-set,
+  .print-button {
+    display: none !important;
+  }
+
+  @media print {
+    .museum,
+    .museum::before,
+    .museum::after {
+      width: auto;
+      max-width: none;
+      margin: 0;
+      padding: 0;
+      border: 0 !important;
+      outline: 0 !important;
+      box-shadow: none !important;
+      background: #fff !important;
+      content: none !important;
+    }
+  }
+
+  .hero {
+    margin: 0 0 0.3in;
+    padding: 0;
+  }
+
+  .hero .eyebrow,
+  .hero .subtitle,
+  .hero .collection-place {
+    display: none;
+  }
+
+  .hero h1 {
+    margin: 0;
+    font-size: 22pt;
+    line-height: 1;
+  }
+
+  .gear-checklist {
+    width: 100%;
+    margin: 0;
+    columns: 2;
+    column-gap: 0.35in;
+  }
+
+  .gear-section {
+    break-inside: avoid;
+    margin: 0 0 0.22in;
+  }
+
+  .gear-section h2 {
+    margin: 0 0 0.05in;
+    padding: 0 0 0.3in;
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 1px solid #000;
+    font-size: 12pt;
+    line-height: 1.15;
+  }
+
+  .gear-row {
+    grid-template-columns: 0.16in minmax(0, 1fr) 0.55in;
+    gap: 0.07in;
+    padding: 0.035in 0;
+    border-bottom: 0;
+    font-size: 8.5pt;
+    line-height: 1.2;
+  }
+
+  .check-box {
+    width: 0.11in;
+    height: 0.11in;
+    margin-top: 0.015in;
+  }
+
+  .gear-item-name {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .gear-item-note {
+    display: none;
+  }
+}
