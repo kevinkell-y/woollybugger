@@ -274,10 +274,11 @@
       link:
       note: If needed.
 
-    - name: Small first-aid kit
+    - name: Woolly Bugger's Field Bite Kit
       weight:
-      link:
-      note: Bandages, antibacterial ointment, nail clippers, and related essentials.
+      link: /products/field-bite-kit/
+      internal: true
+      note: Compact trail first aid for bites, stings, blisters, and small field problems.
 
     - name: Moleskin for blisters
       weight:
