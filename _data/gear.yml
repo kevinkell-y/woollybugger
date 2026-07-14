@@ -1,0 +1,301 @@
+- category: Provisions
+  items:
+    - name: Gatorade powder
+      weight:
+      link: https://www.gatorade.com/
+
+    - name: 1-liter plastic bottle with squeeze cap
+      weight:
+      link:
+
+    - name: Backpacker's Pantry meals
+      note: Personal favorites - Pad Thai & Mango Sticky Rice
+      weight:
+      link: https://backpackerspantry.com/
+
+    - name: Oils, salts, and seasoning packets
+      weight:
+      link:
+
+    - name: Tortillas
+      weight:
+      link:
+
+    - name: Peanut Butter & Jelly
+      weight:
+      link:
+
+    - name: Heavy-duty aluminum foil
+      weight:
+      link:
+
+    - name: Pop-Tarts
+      weight:
+      link:
+    
+    - name: Stroopwafel
+      weight:
+      link:
+
+    - name: Iced coffee crystals
+      weight:
+      link:
+
+    - name: Dehydrated blueberries
+      weight:
+      link:
+
+
+- category: Shelter & Camp
+  items:
+    - name: Duck's Back Pack Cover
+      weight:
+      link:
+
+    - name: Frogg Toggs Ultralight Rain Jacket
+      weight:
+      link: https://www.froggtoggs.com/
+
+    - name: Deuter 75L backpack
+      weight:
+      link: https://www.deuter.com/
+
+    - name: Sawyer water filter
+      weight:
+      link: https://www.sawyer.com/
+
+    - name: Klymit lightweight sleeping pad
+      weight:
+      link: https://klymit.com/
+
+    - name: Durston X-Mid 1 tent
+      weight:
+      link: https://durstongear.com/products/x-mid-1-tent-ultralight-backpacking
+
+    - name: Tyvek ground sheet
+      weight:
+      link:
+
+    - name: Carabiners
+      weight:
+      link:
+
+    - name: Paracord
+      weight:
+      link:
+
+    - name: Mosquito head net
+      weight:
+      link:
+
+    - name: Headlamp
+      weight:
+      link:
+
+    - name: Hiking poles
+      weight:
+      link:
+
+    - name: Compass
+      weight:
+      link:
+
+    - name: Brooks Cascadia trail runners
+      weight:
+      link: https://www.brooksrunning.com/
+
+    - name: Enlightened Equipment Revelation 850 20° quilt
+      weight:
+      link: https://enlightenedequipment.com/revelation-sleeping-quilt/
+
+    - name: Dry bag
+      weight:
+      link:
+
+    - name: Leatherman
+      weight:
+      link: https://www.leatherman.com/
+
+    - name: Backup matches or lighter
+      weight:
+      link:
+
+    - name: Nylofume pack liners
+      weight:
+      link:
+
+    - name: Ferro rod and zinc
+      weight:
+      link:
+
+    - name: Cooking pot, cup, spoon, and stove
+      weight:
+      link:
+
+    - name: Travel propane for mini stove
+      weight:
+      link:
+
+    - name: Wristwatch and sunglasses
+      weight:
+      link:
+
+    - name: Bear canister
+      weight:
+      link:
+
+    - name: Poop trowel
+      weight:
+      link:
+
+    - name: Safety pins
+      weight:
+      link:
+      note: Pin several to your pack for drying socks or bandanas during the day.
+
+    - name: GPS and maps
+      weight:
+      link:
+
+    - name: Smartwater sport-cap bottle cap
+      weight:
+      link:
+
+    - name: Quick-dry towel
+      weight:
+      link:
+
+    - name: Crocs
+      weight:
+      link: https://www.crocs.com/
+      note: For river crossings and camp.
+
+    - name: Sit pad
+      weight:
+      link:
+
+    - name: Nitecore 10000 Gen 3 power bank
+      weight:
+      link: https://www.nitecorestore.com/
+
+- category: Tenkara & Fishing
+  items:
+    - name: Tenkara rod
+      weight:
+      link:
+
+    - name: Fly box with flies
+      weight:
+      link:
+
+    - name: Tenkara net
+      weight:
+      link:
+
+    - name: Fishing license
+      weight:
+      link:
+
+- category: Clothing
+  items:
+    - name: Darn Tough socks
+      weight:
+      link: https://darntough.com/
+      note: Lifetime warranty.
+
+    - name: Wrangler ATG Cliffside Utility synthetic pants
+      weight:
+      link: https://www.wrangler.com/
+
+    - name: Thermal leggings
+      weight:
+      link:
+
+    - name: Tactical shorts
+      weight:
+      link:
+
+    - name: Insulated puffer or down jacket
+      weight:
+      link:
+
+    - name: Two pairs of ExOfficio boxers
+      weight:
+      link: https://www.exofficio.com/
+
+    - name: Hat
+      weight:
+      link:
+
+    - name: Wool socks for nighttime
+      weight:
+      link:
+
+    - name: Sea to Summit Ultra-Sil Nano Poncho
+      weight:
+      link: https://seatosummit.com/
+
+    - name: PONCHO Panga button-down shirt
+      weight:
+      link: https://www.ponchooutdoors.com/
+
+    - name: Dry-fit long-sleeve sleep shirt
+      weight:
+      link:
+
+    - name: Fleece stocking cap and gloves
+      weight:
+      link:
+
+    - name: Bandana
+      weight:
+      link:
+
+- category: Field Medicine & Hygiene
+  items:
+    - name: Travel toothbrush and toothpaste
+      weight:
+      link:
+
+    - name: Ibuprofen and personal medications
+      weight:
+      link:
+
+    - name: Gatorlytes or other electrolytes
+      weight:
+      link:
+
+    - name: Wet wipes
+      weight:
+      link:
+
+    - name: Contact case and solution
+      weight:
+      link:
+      note: If needed.
+
+    - name: Small first-aid kit
+      weight:
+      link:
+      note: Bandages, antibacterial ointment, nail clippers, and related essentials.
+
+    - name: Moleskin for blisters
+      weight:
+      link:
+
+    - name: Deodorant
+      weight:
+      link:
+      note: Optional.
+
+    - name: Mini hand sanitizer
+      weight:
+      link:
+
+    - name: Sunscreen
+      weight:
+      link:
+
+    - name: Lip balm
+      weight:
+      link:

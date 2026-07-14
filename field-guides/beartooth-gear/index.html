@@ -1,0 +1,79 @@
+---
+layout: default
+title: Beartooth Gear List
+description: A field-tested packing list for thru-hiking, wayfinding, and tenkara fishing in the Beartooth Mountains.
+---
+
+<main class="museum">
+
+  {% include nav.html %}
+
+  <section class="hero">
+    <p class="eyebrow">WOOLLY BUGGER'S GEAR LIST</p>
+
+    <h1>Beartooth Wilderness</h1>
+
+    <p class="subtitle">
+      <em>Thru-Hiking • Wayfinding • Tenkara</em>
+    </p>
+
+    <p class="collection-place">
+      Absaroka–Beartooth Wilderness • Montana & Wyoming
+    </p>
+  </section>
+
+  <div class="collection-divider"></div>
+
+  <section class="gear-checklist">
+
+    {% for section in site.data.gear %}
+      <section class="gear-section">
+        <h2>{{ section.category }}</h2>
+
+        <ul class="gear-list">
+          {% for item in section.items %}
+            <li class="gear-row">
+
+              <span class="check-box" aria-hidden="true"></span>
+
+              <div class="gear-item-copy">
+                {% if item.link and item.link != "" %}
+                  <a
+                    class="gear-item-name"
+                    href="{{ item.link }}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {{ item.name }}
+                  </a>
+                {% else %}
+                  <span class="gear-item-name">
+                    {{ item.name }}
+                  </span>
+                {% endif %}
+
+                {% if item.note and item.note != "" %}
+                  <span class="gear-item-note">
+                    {{ item.note }}
+                  </span>
+                {% endif %}
+              </div>
+
+              <span class="gear-item-weight">
+                {{ item.weight }}
+              </span>
+
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endfor %}
+
+    <button class="print-button" type="button" onclick="window.print()">
+      Print Packing Checklist
+    </button>
+
+  </section>
+
+
+</main>
