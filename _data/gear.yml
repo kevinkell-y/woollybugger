@@ -21,7 +21,7 @@
       weight:
       link:
 
-    - name: Peanut Butter & Jelly
+    - name: Peanut Butter & Honey
       weight:
       link:
 
@@ -100,10 +100,6 @@
       weight:
       link:
 
-    - name: Brooks Cascadia trail runners
-      weight:
-      link: https://www.brooksrunning.com/
-
     - name: Enlightened Equipment Revelation 850 20° quilt
       weight:
       link: https://enlightenedequipment.com/revelation-sleeping-quilt/
@@ -131,6 +127,11 @@
     - name: Cooking pot, cup, spoon, and stove
       weight:
       link:
+
+    - name: Ultralight titanium frying pan
+      note: Toaks ultralight titanium pan fits perfectly in the Bearvault Bear Canister
+      weight: 3.7 oz
+      link: https://toaks.com
 
     - name: Travel propane for mini stove
       weight:
@@ -165,7 +166,7 @@
       weight:
       link:
 
-    - name: Crocs
+    - name: Crocs/tevas (for water crossing)
       weight:
       link: https://www.crocs.com/
       note: For river crossings and camp.
@@ -196,9 +197,13 @@
       weight:
       link:
 
+    - name: Nippers
+      weight:
+      link:
+
 - category: Clothing
   items:
-    - name: Darn Tough socks
+    - name: Darn Tough socks (x2)
       weight:
       link: https://darntough.com/
       note: Lifetime warranty.
@@ -251,6 +256,10 @@
       weight:
       link:
 
+    - name: Brooks Cascadia trail runners
+      weight:
+      link: https://www.brooksrunning.com/
+
 - category: Field Medicine & Hygiene
   items:
     - name: Travel toothbrush and toothpaste
@@ -258,10 +267,6 @@
       link:
 
     - name: Ibuprofen and personal medications
-      weight:
-      link:
-
-    - name: Gatorlytes or other electrolytes
       weight:
       link:
 
